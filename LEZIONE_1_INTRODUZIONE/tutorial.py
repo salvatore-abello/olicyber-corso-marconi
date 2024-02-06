@@ -6,7 +6,7 @@ port = 12210
 # 
 
 remote = pwn.remote(host, port)
-remote.interactive()
+remote.interactive() # Ci permette di comunicare con il server come se si stesse usando una CLI
 
 # Per inviare roba
 # remote.sendline("ciao") -> remote.send("ciao\n")
