@@ -1,0 +1,5 @@
+Provare a risolvere la challenge: Miscellaneous - 2048
+
+Tips:
+ - Utilizzare la libreria pwntools per comunicare con il server
+ - Utilizzare (se necessario) la funzione 'eval'
