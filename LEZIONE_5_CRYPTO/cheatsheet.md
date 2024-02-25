@@ -105,3 +105,9 @@ eq2 = y - 1 == 24
 mod = 2^16 - 1
 solve_mod([eq1,eq2], mod)
 ```
+
+### Altro
+
+Se vi trovate una roba del tipo `a = b mod p` è possibile riscriverla come `a = b + k*p`
+
+
