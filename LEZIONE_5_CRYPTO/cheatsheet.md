@@ -67,6 +67,7 @@ assert _x == x # ok
 
 ```py
 # Su sagemath oppure su https://sagecell.sagemath.org/
+
 mod = 2**32 - 1
 K = Integers(mod)
 num = 16
@@ -85,6 +86,8 @@ solve(equazione, x) # Output: [x == -1]
 ### Risolvere sistema di equazioni
 
 ```py
+# Su sagemath oppure su https://sagecell.sagemath.org/
+
 x,y = var("x,y")
 eq1 = x^2 + y == 1024
 eq2 = y - 1 == 24
@@ -94,6 +97,8 @@ solve([eq1,eq2], [x,y])
 ### Risolvere equazione/sistema di equazioni modulo n
 
 ```py
+# Su sagemath oppure su https://sagecell.sagemath.org/
+
 x,y = var("x,y")
 eq1 = x^2 + y == 1024
 eq2 = y - 1 == 24
